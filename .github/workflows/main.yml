@@ -14,7 +14,7 @@ jobs:
         unityVersion:
           - 2020.3.20f1
         targetPlatform:
-          - WebGL # WebGL.
+          - StandaloneWindows64 # Build a Windows 64-bit standalone.
     steps:
       - uses: actions/checkout@v2
         with:
